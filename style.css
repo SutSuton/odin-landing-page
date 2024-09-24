@@ -116,6 +116,7 @@ button {
 .card-container {
   display: flex;
   justify-content: center;
+  flex-flow: wrap;
   gap: 36px;
 }
 .card-holder {
@@ -165,7 +166,7 @@ button {
 .newsletter {
   margin: 100px 12vw;
   border-radius: 16px;
-  padding: 36px 156px; 
+  padding: 36px 8vw; 
   display: flex;
   justify-content: space-between;
   align-items: center;
