@@ -89,6 +89,10 @@ button {
   border-radius: 8px;
 }
 
+.left-container button:hover {
+  background-color: #0965f8;
+  border-color: #0965f8;
+}
 .right-image {
   flex: 1;
   padding: 50px;
@@ -132,6 +136,10 @@ button {
   border-radius: 20px;
   width: 180px;
   height: 180px;
+}
+
+.card-image:hover {
+  box-shadow: 0 0 20px #3882f6;
 }
 
 .card-subtext {
@@ -183,6 +191,11 @@ button {
 .newsletter button {
   border: 1px solid #fff;
   flex: 1 1 136px;
+}
+
+.newsletter button:hover {
+  background-color: #fff;
+  color: #3882f6;
 }
 
 /* Footer */
